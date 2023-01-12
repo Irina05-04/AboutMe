@@ -1,0 +1,99 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   --main-color: #121212;
+   --add-color: #FA99DF;
+   --text-color: #EAEAEA;
+   --grey-color: #1B1A1A;
+   --dack-color: #000000;
+   --main-width: 1100px;
+   font-size: 10px;
+}
+
+a{
+   text-decoration: none;
+}
+
+body{
+   background-color: var(--main-color);
+   color: var(--text-color);
+   font-family: 'League Spartan', sans-serif;
+}
+
+header {
+   background-color: var(--dack-color);
+}
+.menu__body{
+   display: none;
+}
+.title {
+   font-weight: 600;
+   font-size: 1.8rem;
+   line-height: 2rem;
+}
+
+span {
+   color: var(--add-color);
+   font-weight: 500;
+   font-size: 1.8rem;
+   line-height: 2rem;
+   padding-right: 1.6rem;
+}
+.button {
+   padding: 1.5rem 5rem;
+   width: fit-content;
+   border: 2px solid var(--add-color);
+   border-radius: 3rem;
+   font-weight: 400;
+   font-size: 1.8rem;
+   line-height: 2rem;
+   color: var(--text-color);
+   transition: all 0.3s ease;
+}
+.button:hover{
+   background-color: var(--add-color);
+}
+.about {
+   background: linear-gradient(to right, #333333, #000000);
+}
+.about__container {
+   max-width: var(--main-width);
+   margin: 0 auto;
+   padding: 14rem 1rem;
+   display: flex;
+   justify-content: space-between;
+}
+.about__photo {
+   max-width: 416px;
+   height: auto;
+   padding-right: 1rem;
+}
+.about__content {
+   display: flex;
+   flex-direction: column;
+   row-gap: 3.2rem;
+   margin-top: 5rem;
+}
+.about__title {
+}
+
+.fact {
+   font-weight: 300;
+   line-height: 1.8rem;
+}
+.fact__birthday{
+   font-size: 1.6rem;
+   margin-bottom: 1.6rem;
+}
+.fact__location{
+   font-size: 1.6rem;
+}
+.about__text {
+   max-width: 40rem;
+   font-weight: 300;
+   font-size: 1.8rem;
+   line-height: 2.6rem;
+}
+.about__button {
+}
