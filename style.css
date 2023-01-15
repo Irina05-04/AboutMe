@@ -276,7 +276,7 @@ span {
 }
 .chart_active{
    position: absolute;
-   top: 3.5px;
+   top: 3.2px;
    left: 0;
 }
 .chart__rect{
