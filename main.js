@@ -58,7 +58,6 @@ menu.addEventListener("click", (event)=>{
   let target = event.target;  
   if (target.tagName != 'A'){
   event.stopPropagation();
-  console.log(target.tagName);
   }else {
     menu.classList.remove("menu__body_active");
     counter++;

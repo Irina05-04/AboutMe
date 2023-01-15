@@ -11,19 +11,15 @@
    --main-width: 1100px;
    font-size: 10px;
 }
-
 a{
    text-decoration: none;
 }
-
 body{
    background-color: var(--main-color);
    color: var(--text-color);
    font-family: 'League Spartan', sans-serif;
    overflow-x: hidden;
 }
-
-
 .title {
    font-weight: 600;
    font-size: 1.8rem;
@@ -34,7 +30,6 @@ body{
    font-size: 2.4rem;
    line-height: 2.7rem;
 }
-
 span {
    color: var(--add-color);
    font-weight: 500;
@@ -56,6 +51,7 @@ span {
 .button:hover{
    background-color: var(--add-color);
 }
+
 .header {
    background-color: var(--dack-color);
 }
@@ -65,31 +61,27 @@ span {
 .menu {
    position: relative;
 }
-
 .menu__icon {
-   padding-right: 5%;
+   padding-left: 5%;
    padding-top: 6rem;
-   text-align: right;
+   text-align: left;
    cursor: pointer;
    transition: opacity 0.3s ease;
 }
 .menu__icon:hover{
    opacity: 0.6;
 }
-.menu__icon_img {
-}
 .menu__body{
    width: 36rem;
    height: 100vh;
    position: absolute;
-   right: -36rem;
-   visibility: hidden;
+   transform: translateX(-100%);
+   left: 0;
    background-color: var(--dack-color);
    transition: all 0.3s ease;
 }
 .menu__body_active{
-   visibility: visible;
-   right: 0rem;
+   transform: translateX(0);
    z-index: 5;
 }
 .menu__list {
@@ -145,12 +137,11 @@ span {
 .header__button {
    margin-top: 0.8rem;
 }
-.button {
-}
 .header__photo {
    max-width: 55%;
    height: auto;
 }
+
 .about {
    background-color: var(--grey-color);
 }
@@ -170,8 +161,7 @@ span {
 .about__photo > img {
    width: 100%;
    object-fit: cover;
-   object-position: bottom; 
-
+   object-position: bottom;
 }
 .about__content {
    display: flex;
@@ -179,9 +169,6 @@ span {
    row-gap: 3.2rem;
    margin-top: 5rem;
 }
-.about__title {
-}
-
 .fact {
    font-weight: 300;
    line-height: 1.8rem;
@@ -199,11 +186,7 @@ span {
    font-size: 1.8rem;
    line-height: 2.6rem;
 }
-.about__button {
-}
 
-.knowledge {
-}
 .knowledge__container {
    max-width: var(--main-width);
    margin: 0 auto;
@@ -214,17 +197,11 @@ span {
    row-gap: 9.2rem;
    flex-wrap: wrap;
 }
-.knowledge__education {
-}
-.education {
-   
-}
 .education__list{
    display: flex;
    flex-direction: column;
    row-gap: 6rem;
    position: relative;
-
    margin-left: 4.2rem;
 }
 .education__list::before{
@@ -235,9 +212,6 @@ span {
 }
 .education__title {
    margin-bottom: 5.8rem;
-}
-
-.education__item {
 }
 .item {
    display: flex;
@@ -267,22 +241,16 @@ span {
    line-height: 1.6rem;
    opacity: 0.7;
 }
-.knowledge__skils {
-}
 .knowledge__list {
    display: flex;
    flex-direction: column;
    row-gap: 2.4rem;
-}
-.skills {
 }
 .skills__title {
    margin-bottom: 5.8rem;
 }
 .skills__item {
    max-width: 40rem;
-}
-.skill {
 }
 .skill__content{
    display: flex;
@@ -350,6 +318,7 @@ span {
    font-size: 1.4rem;
    line-height: 1.6rem;
 }
+
 .design {
    background-color: var(--grey-color);
 }
@@ -360,8 +329,6 @@ span {
 }
 .design__title {
    margin-bottom: 2.4rem;
-}
-.title {
 }
 .design__subtitle {
    font-weight: 300;
@@ -377,8 +344,6 @@ span {
    row-gap: 2rem;
    margin-bottom: 3.2rem;
 }
-.icons {
-}
 .icons__item {
    padding: 2.2rem 2.6rem;
    border: 2px solid var(--add-color);
@@ -393,7 +358,6 @@ span {
    font-size: 14px;
    line-height: 21px;
 }
-
 
 .work__container{
    max-width: var(--main-width);
@@ -420,7 +384,6 @@ span {
    column-gap: 2.4rem;
    transition-duration: .5s;
 }
-
 .slider__arrow_left {
    position: absolute;
    top: calc(50% - 30px);
@@ -440,7 +403,6 @@ span {
    cursor: pointer;
    transition: opacity 0.3s ease;
 }
-
 .disabled{
    opacity: 0.5;
 }
@@ -464,8 +426,6 @@ span {
    flex-wrap: wrap;
    max-width: 59rem;
 }
-.footer__contact {
-}
 .contact {
    display: flex;
    flex-direction: column;
@@ -477,11 +437,6 @@ span {
    font-size: 1.6rem;
    line-height: 1.8rem;
    color: var(--lightgrey-color);
-}
- 
-.footer__social {
-}
-.social {
 }
 .social__title{
    margin-bottom: 2.4rem;
