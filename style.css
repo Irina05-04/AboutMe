@@ -408,7 +408,7 @@ span {
 }
 
 .footer {
-   background-color: var(--grey-color);
+   background-color: var(--main-color);
 }
 .footer__container {
    max-width: var(--main-width);
