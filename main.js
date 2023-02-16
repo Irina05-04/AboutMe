@@ -1,4 +1,4 @@
-let sliderPosition = 0;
+/*let sliderPosition = 0;
 const sliderContainer = document.querySelector('.slider__container');
 const sliderTrack = document.querySelector('.slider__track');
 const sliderItem = document.querySelector('.slider__item');
@@ -39,7 +39,7 @@ const sliderButtons = () => {
     sliderButtonNext.classList.remove("disabled");
     sliderButtonNext.removeAttribute("disabled");
   };
-}
+}*/
 
 let counter = 0;
 let burger = document.querySelector(".menu__icon_img");
