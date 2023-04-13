@@ -13,6 +13,7 @@
 }
 a{
    text-decoration: none;
+   color: var(--text-color);
 }
 body{
    background-color: var(--main-color);
@@ -200,12 +201,12 @@ span {
 .education__list{
    display: flex;
    flex-direction: column;
-   row-gap: 6rem;
+   row-gap: 4.5rem;
    position: relative;
    margin-left: 4.2rem;
 }
 .education__list::before{
-   content: url(./assets/img/Group\ 27.png);
+   content: url(./assets/img/list.svg);
    position: absolute;
    left: -4.2rem;
    top: -2.8rem;
